@@ -64,3 +64,31 @@ const fetch = require('node-fetch')
 // 	.catch((err) => console.error(err))
 
 // async/await
+
+// load file with async/await
+
+// const loadFile = async () => {
+// 	try {
+// 		const data = await fs.promises.readFile('./te.st.txt', {
+// 			encoding: 'utf-8',
+// 		})
+// 		console.log(data)
+// 	} catch (error) {
+// 		console.error(error)
+// 	}
+// }
+
+// loadFile()
+
+// fetch pokemon
+const fetchPokemon = async (id) => {
+	try {
+		const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+		const data = await res.json()
+		console.log(data)
+	} catch (error) {
+		console.error(error)
+	}
+}
+
+fetchPokemon()
