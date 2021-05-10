@@ -57,9 +57,10 @@ const fetch = require('node-fetch')
 // 	.then((data) => console.log(data))
 // 	.catch((err) => console.error(err))
 
-// fetch with promises
-fetch('http://pokeapi.co/api/v2/pokemon/ditto')
-	.then((data) => console.log(data))
-	.catch((err) => console.error(err))
+// // fetch with promises
+// fetch('http://pokeapi.co/api/v2/pokemon/ditto')
+// 	.then((res) => res.json())
+// 	.then((data) => console.log(data))
+// 	.catch((err) => console.error(err))
 
 // async/await
