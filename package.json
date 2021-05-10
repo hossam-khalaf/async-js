@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hossam-khalaf/async-js/issues"
   },
-  "homepage": "https://github.com/hossam-khalaf/async-js#readme"
+  "homepage": "https://github.com/hossam-khalaf/async-js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
