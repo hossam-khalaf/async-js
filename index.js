@@ -25,9 +25,15 @@ const fs = require('fs')
 // })
 
 // error first callback
-fs.readFile('./test.txt', { encoding: 'utf-8' }, (err, data) => {
-	console.log(data)
-})
+// fs.readFile('./test.txt', { encoding: 'utf-8' }, (err, data) => {
+// 	if (err) {
+// 		console.log('ERROR')
+// 		console.error(err)
+// 	} else {
+// 		console.error('Got data')
+// 		console.log(data)
+// 	}
+// })
 
 // promises
 
